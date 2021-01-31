@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta http-equiv="X-UA-Compatible" content="ie=edge">
+			<title>Главная страница</title>
+			<link href="css/style.css" rel="stylesheet" type="text/css" />
+			<link href="js/script.js" />
+		</head>
+		<body>
+			<header>
+				<div id="logo" onclick="slowScroll('#top')">
+					<span>tmAuto</span>
+				</div>
+				<div id="about">
+					<a href="#" onclick="slowScroll('#main')" title="Новости из мира!">Новости!</a>
+					<a href="#" onclick="slowScroll('#overwiev')" title="Марки автомобилей">Марки автомобилей</a>
+					<a href="#" onclick="slowScroll('#contacts')" title="Контакты">Контакты</a>
+					<a href="#" onclick="slowScroll('#history')" title="История">История</a>
+				</div>
+			</header>
+			
+			<div id="top">
+				<h1>Элитные</h1>
+				<h3>модели автомобилей!</h3>
+			</div>
+			
+			<div id="main">
+				<div class="intro">
+					<h2>Новости</h2>
+					<span>из мира автомобилей!</span>
+				</div>
+				<div class="text">
+					<span>Lorem ipsum — классический текст-«рыба». Является искажённым отрывком из философского трактата Марка Туллия Цицерона «О пределах добра и зла», написанного в 45 году до н. э. на латинском языке, обнаружение сходства приписывается Ричарду МакКлинтоку.</span>
+				</div>
+			</div>
+			
+			<div id="overwiev">
+				<h2>Марки Автомобилей</h2>
+				<h4>элитные автомобили!</h4>
+				
+				<div class="img">
+					<img src="css/images/RoollsRoyce.jpg" alt="">
+					<span>Rolls Royce</span>
+				</div>
+				<div class="img">
+					<img src="css/images/mercedec-maybach-s-class-2021-2.jpg" alt="">
+					<span>Maybach</span>
+				</div>
+				<div class="img">
+					<img src="css/images/Bentley-Bentayga-V8.jpg" alt="">
+					<span>Bentley</span>
+				</div>
+				<div class="img">
+					<img src="css/images/2021-aston-martin-db11-v8-shadow-edition.jpg" alt="">
+					<span>Aston Martin</span>
+				</div>
+			</div>
+			
+			<div id="contacts">
+				<center><h5>Обратная связь</h5></center>
+				<form id="form_input">
+					<label for="name">Имя <span>*</span></label><br>
+					<input type="text" placeholder="Введите имя" name="name" id="name"><br>
+					<label for="email">Ваша почта <span>*</span></label><br>
+					<input type="email" placeholder="Введите email" name="email" id="email"><br>
+					<label for="message">Сообщение <span>*</span></label><br>
+					<textarea placeholder="Введите ваше сообщение" name="message" id="message"></textarea><br>
+					<div id="mess_send" class="btn">Отправить </div>
+				</form>
+			</div>
+			
+			<div id="history">
+				<div>
+					<span class="title">В этом году</span><br>
+					<span class="heading">На первом месте</span>
+					<p>Lorem ipsum — классический текст-«рыба». Является искажённым отрывком из философского трактата Марка Туллия Цицерона «О пределах добра и зла», написанного в 45 году до н. э. на латинском языке, обнаружение сходства приписывается Ричарду МакКлинтоку.</p>
+					<span class="heading">Коротко о продвижениях</span>
+					<p>Lorem ipsum — классический текст-«рыба». Является искажённым отрывком из философского трактата Марка Туллия Цицерона «О пределах добра и зла», написанного в 45 году до н. э. на латинском языке, обнаружение сходства приписывается Ричарду МакКлинтоку.</p>
+					<span class="heading">Преимущества</span>
+					<p>Lorem ipsum — классический текст-«рыба». Является искажённым отрывком из философского трактата Марка Туллия Цицерона «О пределах добра и зла», написанного в 45 году до н. э. на латинском языке, обнаружение сходства приписывается Ричарду МакКлинтоку.</p>
+				</div>
+				<div>
+					<span class="title">В прошлом году</span><br>
+					<span class="heading">На первом месте</span>
+					<p>Lorem ipsum — классический текст-«рыба». Является искажённым отрывком из философского трактата Марка Туллия Цицерона «О пределах добра и зла», написанного в 45 году до н. э. на латинском языке, обнаружение сходства приписывается Ричарду МакКлинтоку.</p>
+					<span class="heading">Коротко о продвижениях</span>
+					<p>Lorem ipsum — классический текст-«рыба». Является искажённым отрывком из философского трактата Марка Туллия Цицерона «О пределах добра и зла», написанного в 45 году до н. э. на латинском языке, обнаружение сходства приписывается Ричарду МакКлинтоку.</p>
+					<span class="heading">Преимущества</span>
+					<p>Lorem ipsum — классический текст-«рыба». Является искажённым отрывком из философского трактата Марка Туллия Цицерона «О пределах добра и зла», написанного в 45 году до н. э. на латинском языке, обнаружение сходства приписывается Ричарду МакКлинтоку.</p>
+				</div>
+				<div>
+					<span class="title">За 10 лет</span><br>
+					<span class="heading">На первом месте</span>
+					<p>Lorem ipsum — классический текст-«рыба». Является искажённым отрывком из философского трактата Марка Туллия Цицерона «О пределах добра и зла», написанного в 45 году до н. э. на латинском языке, обнаружение сходства приписывается Ричарду МакКлинтоку.</p>
+					<span class="heading">Коротко о продвижениях</span>
+					<p>Lorem ipsum — классический текст-«рыба». Является искажённым отрывком из философского трактата Марка Туллия Цицерона «О пределах добра и зла», написанного в 45 году до н. э. на латинском языке, обнаружение сходства приписывается Ричарду МакКлинтоку.</p>
+					<span class="heading">Преимущества</span>
+					<p>Lorem ipsum — классический текст-«рыба». Является искажённым отрывком из философского трактата Марка Туллия Цицерона «О пределах добра и зла», написанного в 45 году до н. э. на латинском языке, обнаружение сходства приписывается Ричарду МакКлинтоку.</p>
+				</div>
+			</div>
+			<div id="year"><h5 align="center">Copyright 2021.</h5></div>
+			
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<script>
+				function slowScroll(id){
+					$('html, body').animate({
+						scrollTop: $(id).offset().top
+					}, 500);
+				}
+				
+				$(document).on("scroll", function () {
+					if($(window).scrollTop() === 0)
+						$("header").removeClass("fixed");
+					else
+						$("header").attr("class","fixed");
+				});
+			</script>
+		</body>
+	</html>
